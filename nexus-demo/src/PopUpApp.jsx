@@ -1,10 +1,10 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
+import "./PopUpApp.css";
 
-function App() {
-  const [count, setCount] = useState(0);
+function PopUpApp() {
+  const [analyze, setAnalyze] = useState(0);
 
   return (
     <>
@@ -18,18 +18,17 @@ function App() {
       </div>
       <h1>Nexus Tutor</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Generate Practice Problems
-        </button>
-        <p>
-          Test Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <button>Generate Practice Problems</button>
+        <p>Make sure the video is playing before analysis.</p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div>
+        <button>Upload Video</button>
+
+        <button>My Nexus Tutor</button>
+      </div>
+      <p className="read-the-docs">Learn more</p>
     </>
   );
 }
 
-export default App;
+export default PopUpApp;
