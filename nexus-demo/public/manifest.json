@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Popup extension that requests permissions",
+  "name": "Nexus Tutor",
   "description": "Nexus Tutor analyzes educational videos to create personalized practice problems, enhancing student learning through active engagement and targeted reinforcement.",
   "version": "1.0.0",
   "action": {
