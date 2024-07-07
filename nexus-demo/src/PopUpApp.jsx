@@ -1,6 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import mlLogo from "/ml.svg";
 import "./PopUpApp.css";
 
 function PopUpApp() {
@@ -9,24 +8,26 @@ function PopUpApp() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={mlLogo} className="logo ml" alt="ML logo" />
         </a>
       </div>
       <h1>Nexus Tutor</h1>
       <div className="card">
-        <button>Generate Practice Problems</button>
-        <p>Make sure the video is playing before analysis.</p>
+        <button>Start Analysis</button>
+        <p className="subtitle">
+          Generate problems based on current video. Make sure the video is
+          playing.
+        </p>
       </div>
       <div>
         <button>Upload Video</button>
 
         <button>My Nexus Tutor</button>
       </div>
-      <p className="read-the-docs">Learn more</p>
+      <div className="learn-more-box">
+        <p className="learn-more">Learn more</p>
+      </div>
     </>
   );
 }
