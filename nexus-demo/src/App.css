@@ -2,6 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  padding-bottom: .5rem;
   text-align: center;
 }
 
@@ -14,8 +15,8 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.logo.ml:hover {
+  filter: drop-shadow(0 0 2em gold);
 }
 
 @keyframes logo-spin {
@@ -34,9 +35,17 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
 }
 
-.read-the-docs {
+.learn-more {
+  background-color: transparent;
+  padding: 0;
+}
+.learn-more:hover {
+  border-color: transparent;
+}
+
+.learn-more-text {
   color: #888;
 }
