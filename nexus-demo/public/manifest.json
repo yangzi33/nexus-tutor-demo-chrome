@@ -1,10 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Popup extension that requests permissions",
-  "description": "Extension that includes a popup and requests host permissions and storage permissions .",
-  "version": "1.0",
+  "description": "Nexus Tutor analyzes educational videos to create personalized practice problems, enhancing student learning through active engagement and targeted reinforcement.",
+  "version": "1.0.0",
   "action": {
     "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "ml-256.png",
+    "32": "ml-512.png",
+    "64": "ml-1024.png"
   },
   "host_permissions": [
     "https://*.example.com/",
