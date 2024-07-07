@@ -16,7 +16,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.ml:hover {
-  filter: drop-shadow(0 0 2em pink);
+  filter: drop-shadow(0 0 2em gold);
 }
 
 @keyframes logo-spin {

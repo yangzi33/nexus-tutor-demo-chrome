@@ -8,13 +8,15 @@ function PopUpApp() {
   return (
     <>
       <div>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://github.com/yangzi33" target="_blank">
           <img src={mlLogo} className="logo ml" alt="ML logo" />
         </a>
       </div>
       <h1>Nexus Tutor</h1>
       <div className="card">
-        <button>Start Analysis</button>
+        <button onClick={() => window.open("http://localhost:3000", "_blank")}>
+          Start Analysis
+        </button>
         <p className="subtitle">
           Generate problems based on current video. Make sure the video is
           playing.
