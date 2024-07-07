@@ -1,4 +1,4 @@
-# readme
+# Nexus Tutor
 
 ## Testing Unpacked Extension Locally
 
